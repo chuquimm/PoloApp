@@ -1,5 +1,5 @@
+import 'package:com/Place/ui/widgets/card_image.dart';
 import 'package:flutter/material.dart';
-import 'card_image.dart';
 
 class CardImageList extends StatelessWidget {
   // const CardImageList({Key key}) : super(key: key);

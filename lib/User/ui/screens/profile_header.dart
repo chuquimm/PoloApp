@@ -1,5 +1,5 @@
-import 'package:com/button_bar.dart';
-import 'package:com/user_info.dart';
+import 'package:com/User/ui/widgets/button_bar.dart';
+import 'package:com/User/ui/widgets/user_info.dart';
 import 'package:flutter/material.dart';
 
 class ProfileHeader extends StatelessWidget {

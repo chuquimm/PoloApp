@@ -1,5 +1,5 @@
+import 'package:com/Place/ui/widgets/review.dart';
 import 'package:flutter/material.dart';
-import 'review.dart';
 
 class ReviewList extends StatelessWidget {
   static const String pathImage = "assets/images/avatar.jpg";

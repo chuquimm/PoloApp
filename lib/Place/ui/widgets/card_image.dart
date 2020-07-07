@@ -1,4 +1,4 @@
-import 'package:com/floating_action_button_green.dart';
+import 'package:com/widgets/floating_action_button_green.dart';
 import 'package:flutter/material.dart';
 
 class CardImage extends StatelessWidget {

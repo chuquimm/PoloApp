@@ -1,4 +1,4 @@
-import 'package:com/circle_button.dart';
+import 'package:com/User/ui/widgets/circle_button.dart';
 import 'package:flutter/material.dart';
 
 class ButtonsBar extends StatelessWidget {

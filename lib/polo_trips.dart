@@ -1,6 +1,6 @@
-import 'package:com/home_trips.dart';
-import 'package:com/profile_trips.dart';
-import 'package:com/search_trips.dart';
+import 'package:com/Place/ui/screens/home_trips.dart';
+import 'package:com/Place/ui/screens/search_trips.dart';
+import 'package:com/User/ui/screens/profile_trips.dart';
 import 'package:flutter/material.dart';
 
 class PoloTrips extends StatefulWidget {
