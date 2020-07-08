@@ -1,7 +1,6 @@
 // import 'package:com/header_appbar.dart';
 import 'package:com/User/bloc/bloc_user.dart';
 import 'package:com/User/ui/screens/sign_in_screen.dart';
-import 'package:com/polo_trips.dart';
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 // import 'description_place.dart';

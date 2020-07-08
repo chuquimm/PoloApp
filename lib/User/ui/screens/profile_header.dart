@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 class ProfileHeader extends StatelessWidget {
-  UserBloc userBloc;
-  User user;
+  static UserBloc userBloc;
+  static User user;
   @override
   Widget build(BuildContext context) {
     userBloc = BlocProvider.of<UserBloc>(context);

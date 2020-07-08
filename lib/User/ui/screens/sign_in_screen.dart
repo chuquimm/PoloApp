@@ -26,6 +26,7 @@ class _SignInScreenState extends State<SignInScreen> {
       stream: userBloc.authStatus,
       builder: (BuildContext context, AsyncSnapshot snapshot) {
         if (!snapshot.hasData || snapshot.hasError) {
+          // if (true) {
           return signInGoogleUI();
         } else {
           return PoloTrips();
@@ -53,6 +54,7 @@ class _SignInScreenState extends State<SignInScreen> {
               ButtonBlue(
                 text: "Iniciar sesión",
                 onPressed: () {
+                  userBloc.signOut();
                   userBloc.signIn().then((AuthResult auth) =>
                       print("El usuario es ${auth.user.displayName}"));
                 },

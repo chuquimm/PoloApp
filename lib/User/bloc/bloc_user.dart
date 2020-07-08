@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 class UserBloc implements Bloc {
+  // ignore: non_constant_identifier_names
   final _auth_repository = AuthRepository();
 
   Stream<FirebaseUser> streamFirebase =
@@ -19,7 +20,5 @@ class UserBloc implements Bloc {
   }
 
   @override
-  void dispose() {
-    // TODO: implement dispose
-  }
+  void dispose() {}
 }

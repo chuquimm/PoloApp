@@ -2,9 +2,9 @@ import 'package:com/User/model/user.dart';
 import 'package:flutter/material.dart';
 
 class UserInfo extends StatelessWidget {
-  User user;
+  final User user;
 
-  UserInfo(@required this.user);
+  UserInfo(this.user);
 
   @override
   Widget build(BuildContext context) {

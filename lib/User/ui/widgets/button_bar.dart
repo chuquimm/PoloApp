@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 class ButtonsBar extends StatelessWidget {
-  UserBloc userBloc;
+  static UserBloc userBloc;
   @override
   Widget build(BuildContext context) {
     userBloc = BlocProvider.of(context);
